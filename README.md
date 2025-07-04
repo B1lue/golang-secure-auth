@@ -33,15 +33,7 @@ A secure authentication RESTful API built with:
 
 ---
 
-## 🔧 Environment Setup
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/B1lue/golang-secure-auth.git
-
-
-Create your .env file
+## Create your .env file
 
 PORT=8080
 DB_USER=postgres
@@ -51,7 +43,14 @@ DB_HOST=db
 JWT_SECRET=your_super_secret_key
 
 3. Run with Docker
-
 docker-compose up --build
+
+### 🔧 Environment Setup
+
+#### 1. Clone the repository
+
+```bash
+git clone https://github.com/B1lue/golang-secure-auth.git
+
 
 
