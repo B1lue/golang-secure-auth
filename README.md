@@ -34,17 +34,19 @@ A secure authentication RESTful API built with:
 ---
 
 ## Create your .env file
-
+```bash
 PORT=8080
 DB_USER=postgres
 DB_PASSWORD=your_password
 DB_NAME=secure_auth
 DB_HOST=db
 JWT_SECRET=your_super_secret_key
+```
 
 3. Run with Docker
+```bash
 docker-compose up --build
-
+```
 ### 🔧 Environment Setup
 
 #### 1. Clone the repository
